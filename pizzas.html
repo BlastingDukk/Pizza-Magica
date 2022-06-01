@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pizzas</title>
+    <link rel="shortcut icon" type="image/x-icon" href="redesSociales/pizzaIcon.png">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body>
+    
+    <div class="header">
+    <div class = "encabezado"> 
+      <div class="logo">
+<a href="index.html"><img src="logo.png" alt="logo"></a>
+       
+       
+      </div>
+        
+      <div class="eslogan">
+        <a href="index.html">Todo lo que necesitas es amor... o mejor una pizza</a>
+        
+      </div>
+        
+      <div class="menu">
+   
+    <a href="pizzas.html">PIZZAS</a> 
+      
+    <a href="ordena.html">ORDENA</a>  
+    
+    <a href="buscanos.html">BUSCANOS</a> 
+        
+    <a href="unete.html">UNETE</a>
+    
+  
+      </div>
+       </div>
+    </div>
+    
+     
+      <div class="contenedorCuerpo">
+     <div class="cuerpo" id="pagPizzas">        
+<div class="menuPizzas">
+   
+    <a href="complementos.html">COMPLEMENTOS</a> 
+    <a href="promociones.html">PROMOCIONES</a>  
+    
+</div> 
+   <div class="pizzasContenido">      
+
+   <table>
+            <tr>
+<td>
+<img class="pizzasIMG"src="Comida/pizzas/pizzaExtraQueso.jpg">
+</td>
+    <td class = "textProductos">
+    <h3>Pizza Extra Queso</h3>
+                  Ingredientes:
+                  <br>
+                  Peperoni, Manchego, Motzarella, Parmesano, Cheddar.
+                  <br>
+                  <br>
+                  Precio:
+                  $199
+      
+   
+</td>              <td>
+              <button onclick="comprar(101,preguntarCantidad())">Agregar</button>  </td>
+    </tr>
+     
+            <tr>
+              <td><img class="pizzasIMG"src="Comida/pizzas/pizzaCuatroSabores.png" >  </td>
+              <td class = "textProductos">
+                <h3>Pizza 4 Ingredientes</h3>
+                Ingredientes:
+                <br>
+                Queso, Peperoni, Jamon, Carne molida, Pimiento.
+                <br>
+                <br>
+                Precio:
+                $210
+                
+              </td>
+              <td>
+              <button onclick="comprar(102,preguntarCantidad())">Agregar</button>  </td>
+             
+            </tr>
+     
+            <tr>              <td><img class="pizzasIMG" src="Comida/pizzas/pizzaHawaiana.jpg" ></td>
+                <td class = "textProductos">
+                  <h3>Pizza Hawaiana</h3>
+                  Ingredientes:
+                  <br>
+                  Queso, Jamon, Piña.
+                  <br>
+                  <br>
+                  Precio:
+                  $130
+           </td>           
+            <td>   <button onclick="comprar(103,preguntarCantidad())">Agregar</button>  </td>
+          </tr>
+     
+       <tr>
+                <td><img class="pizzasIMG" src="Comida/pizzas/pizzaPeperoni.jpg" ></td>
+                <td class = "textProductos">
+                  <h3>Pizza de Peperoni</h3>
+                  Ingredientes:
+                  <br>
+                  Queso, Peperoni.
+                  <br>
+                  <br>
+                  Precio:
+                  $99</td>
+         <td> <button onclick="comprar(104,preguntarCantidad())">Agregar</button>  </td>
+            </tr>
+      
+  
+<tr>
+                <td><img class="pizzasIMG" src="Comida/pizzas/chorizoPizza.jpg" ></td>
+                <td class = "textProductos">
+                  <h3>Pizza de Chorizo</h3>
+                  Ingredientes:
+                  <br>
+                  Queso, Peperoni, Pimiento, Chorizo.
+                  <br>
+                  <br>
+                  Precio:
+                  $149
+                  </td>
+  <td> <button onclick="comprar(105,preguntarCantidad())">Agregar</button>  </td>
+            </tr>
+     
+<tr>
+                <td><img class="pizzasIMGAlternativo" src="Comida/pizzas/pizzaMexicana.png" ></td>
+                <td class = "textProductos">
+                  <h3>Pizza a la Mexicana</h3>
+                  Ingredientes:
+                  <br>
+                  Queso, Chorizo, Cebolla, Jalapeños.
+                  <br>
+                  <br>
+                  Precio:
+                  $140
+               </td>
+ <td>  <button onclick="comprar(106,preguntarCantidad())">Agregar</button>  </td>
+            </tr>
+     <tr>
+                <td><img class="pizzasIMGAlternativo" src="Comida/pizzas/pizzaCarnesFrias.jpg" ></td>
+                <td class = "textProductos">
+                  <h3>Pizza de Carnes Frias</h3>
+                  Ingredientes:
+                  <br>
+                  Queso, Peperoni, Salami, Jamon, Tocino.
+                  <br>
+                  <br>
+                  Precio:
+                  $220
+                  </td>
+ <td>  <button onclick="comprar(107,preguntarCantidad())">Agregar</button>  </td>
+            </tr>
+     <tr>
+                <td><img class="pizzasIMG" src="Comida/pizzas/pizzaItaliana.webp" ></td>
+                <td class = "textProductos">
+                  <h3>Pizza Estilo Italiana</h3>
+                  Ingredientes:
+                  <br>
+                  Queso, Tomates Cherry, Albahaca, Motzarella Fresco.
+                  <br>
+                  <br>
+                  Precio:
+                  $180
+                  </td>
+ <td>  <button onclick="comprar(108,preguntarCantidad())">Agregar</button>  </td>
+            </tr>
+
+     
+        </table>
+  
+</div>  
+  </div>  
+      
+        
+    </div>
+    
+    <div class = "footer">
+      <div class = "atencionCliente">
+  ATENCION AL CLIENTE (9514040783)
+      </div>
+      <div class= "divRedes">
+<a href="https://www.facebook.com/Pizza-Magica-104312968895338/"><img class= "redes" src="redesSociales/facebookLogo1.png" alt="redes" ></a>
+<a href="https://www.instagram.com/pizzamagica_cecyte/"><img class="redes" src="redesSociales/instagramLogo.png" alt="redes"></a>
+<a href="https://twitter.com/magica_pizza?t=T14ksGZG1kdzzgFeQfVuTA&s=09"><img class="redes" src="redesSociales/twitterLogo.png" alt="redes"></a>      
+      </div>
+    </div>
+   
+    <script src="script.js"></script>
+  </body>
+</html>
